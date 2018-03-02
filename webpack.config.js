@@ -5,8 +5,8 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './docs'),
-    publicPath: '/docs/',
+    path: path.resolve(__dirname, './resource'),
+    publicPath: './resource/',
     filename: 'build.js'
   },
   module: {
